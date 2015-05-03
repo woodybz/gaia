@@ -102,7 +102,7 @@ function volontari(datiComitato){
         size: {'const': 3}
     } ],
     guide: {
-        x: { title: 'Anno di ingresso' },
+        x: { title: 'Anno di ingresso' , min: 1900 },
         y: { title: 'Volontari entrati' }
     }
   });
